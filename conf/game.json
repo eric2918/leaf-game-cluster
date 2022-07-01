@@ -1,0 +1,17 @@
+{
+	"LogLevel": "debug",
+
+	"Region": "zh-cn",
+	"MachineID": 1,
+	"ServerName": "game",
+	"TCPAddr": "127.0.0.1:20002",
+	"MaxConnNum": 20000,
+	"Language": "zh-cn",
+
+	"ListenAddr": "127.0.0.1:10002",
+	"ConnAddrs": {"gate": "127.0.0.1:10000","user": "127.0.0.1:10001"},
+	"PendingWriteNum": 100,
+
+	"ConsolePort": 3002,
+	"ConsolePrompt":"game# "
+}

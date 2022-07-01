@@ -1,0 +1,15 @@
+{
+	"LogLevel": "debug",
+
+	"Region": "zh-cn",
+	"MachineID": 1,
+	"ServerName": "chat",
+	"Language": "zh-cn",
+
+	"ListenAddr": "127.0.0.1:10003",
+	"ConnAddrs": {"gate": "127.0.0.1:10000","user": "127.0.0.1:10001"},
+	"PendingWriteNum": 100,
+
+	"ConsolePort": 3003,
+	"ConsolePrompt":"chat# "
+}

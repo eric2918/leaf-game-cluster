@@ -1,0 +1,18 @@
+{
+	"LogLevel": "debug",
+
+	"MachineID": 1,
+	"ServerName": "account",
+	"TCPAddr": "127.0.0.1:20001",
+	"MaxConnNum": 20000,
+	"Language": "zh-cn",
+
+	"ListenAddr": "127.0.0.1:10001",
+	"ConnAddrs": {"gate":"127.0.0.1:10000"},
+	"PendingWriteNum": 100,
+
+	"ConsolePort": 3001,
+	"ConsolePrompt":"account# "
+}
+
+

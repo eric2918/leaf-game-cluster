@@ -1,0 +1,16 @@
+{
+	"LogLevel": "debug",
+
+	"ServerName": "gate",
+	"Language": "zh-cn",
+
+	"ListenAddr": "127.0.0.1:10000",
+	"PendingWriteNum": 100,
+
+	"ConsolePort": 3000,
+	"ConsolePrompt":"gate# "
+
+
+}
+
+
